@@ -39,6 +39,9 @@ namespace TestProject1
         break;
     case '/':
         std::cout << "a / b = " << a / b << '\n';
+        break;  
+        case '/':
+        std::cout << "a / b = " << a / b << '\n';
         break;
     default:
         std::cout << "Error\n";
